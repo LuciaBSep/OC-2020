@@ -15,11 +15,15 @@ Implementar un TDA Mapeo en lenguaje C, cuyas claves y valores encapsulados sean
 
 # Programa Principal
 Implementar una aplicacion de consola que, tomando como argumento por lınea de comandos el nombre de un archivo de texto, recorra el mismo y compute la cantidad de apariciones de las palabras que componen el archivo haciendo uso del TDA Mapeo. Una vez modelados estos datos estadısticos, la aplicacion debera ofrecer un menu de operaciones, que permita lo siguiente:
+
 Cantidad apariciones: permite ingresar una palabra y muestra la cantidad de veces que dicha palabra se encuentra en el archivo.
+
 Salir: permite finalizar el programa, pero antes de esto se encarga de liberar toda la memoria utilizada por los TDA Lista y TDA Mapeo.
+
 El programa implementado, denominado evaluador, debe conformar la siguiente especificacion al ser invocado desde la lınea de comandos:
 $ evaluador <archivo texto>
 El parametro archivo texto indica el archivo a partir del cual se contabilizara la frecuencia de aparicion de las palabras que lo componen. A modo de simplificacion, asuma que el archivo de texto se compondra de caracteres ASCII basico unicamente, y que toda palabra en el mismo sera valida (no se requiere ningun tratamiento en particular sobre las secuencias de caracteres).
+ 
 En cualquier caso, el programa principal debe finalizar retornando: 
 0 en caso de finalizacion exitosa.
 -1 en caso de error al intentar la apertura del archivo parametrizado.
