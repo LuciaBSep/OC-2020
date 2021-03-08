@@ -25,7 +25,7 @@ $ evaluador <archivo texto>
 El parametro archivo texto indica el archivo a partir del cual se contabilizara la frecuencia de aparicion de las palabras que lo componen. A modo de simplificacion, asuma que el archivo de texto se compondra de caracteres ASCII basico unicamente, y que toda palabra en el mismo sera valida (no se requiere ningun tratamiento en particular sobre las secuencias de caracteres).
  
 En cualquier caso, el programa principal debe finalizar retornando: 
-0 en caso de finalizacion exitosa.
--1 en caso de error al intentar la apertura del archivo parametrizado.
--2 en caso de error ante la invocacion del programa.
+- 0 en caso de finalizacion exitosa.
+- -1 en caso de error al intentar la apertura del archivo parametrizado.
+- -2 en caso de error ante la invocacion del programa.
 En caso de finalizacion erronea, ademas de codigo de retorno indicado, el programa debe mostrar por pantalla un mensaje indicando la naturaleza del error.
