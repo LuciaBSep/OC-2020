@@ -28,5 +28,5 @@ En cualquier caso, el programa principal debe finalizar retornando:
 - 0 en caso de finalizacion exitosa.
 - -1 en caso de error al intentar la apertura del archivo parametrizado.
 - -2 en caso de error ante la invocacion del programa.
-- 
+
 En caso de finalizacion erronea, ademas de codigo de retorno indicado, el programa debe mostrar por pantalla un mensaje indicando la naturaleza del error.
